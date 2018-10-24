@@ -1,0 +1,31 @@
+/*
+ * 
+ *      Knowledge Bar, developed by Rasmus Nilsson
+ *      info@rasmusnilsson.se
+ *      https://rasmusnilsson.se/
+ * 
+ */
+ul.knowledge-bar {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  border-left: 2px solid #ccc;
+  border-right: 2px solid #ccc;
+  padding: 6px;
+  padding-top: 0; }
+
+ul.knowledge-bar:before {
+  content: "0%";
+  left: 0; }
+
+ul.knowledge-bar:after {
+  content: "100%";
+  right: 0; }
+
+ul.knowledge-bar:after, ul.knowledge-bar:before {
+  position: absolute;
+  font-family: Calibri;
+  font-size: 9pt;
+  padding: 2px;
+  top: -50%; }
+
+/*# sourceMappingURL=knowledge-bar0.1-info.css.map */

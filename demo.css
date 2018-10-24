@@ -1,0 +1,53 @@
+/*
+ *      Knowledge Bar, developed by Rasmus Nilsson
+ *      info@rasmusnilsson.se
+ *      https://rasmusnilsson.se/
+*/
+/* 
+    Created on : Oct 19, 2018, 10:17:51 AM
+    Author     : Rasmus Erik Nilsson
+*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Consolas; }
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: lighter; }
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 800px;
+  margin: auto; }
+  section .bar {
+    margin: 12px;
+    -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    width: 40%; }
+  @media screen and (max-width: 812px) {
+    section {
+      width: 90%; }
+      section .bar {
+        width: 100%; } }
+
+footer {
+  text-align: center; }
+
+/*# sourceMappingURL=index.css.map */

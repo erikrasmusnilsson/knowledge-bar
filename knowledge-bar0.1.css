@@ -1,0 +1,36 @@
+/*
+ * 
+ *      Knowledge Bar, developed by Rasmus Nilsson
+ *      info@rasmusnilsson.se
+ *      https://rasmusnilsson.se/
+ * 
+ */
+ul.knowledge-bar, li.kn-bar {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+ul.knowledge-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  list-style-type: none;
+  padding: 0; }
+  ul.knowledge-bar li.kn-bar.kn-animate, ul.knowledge-bar li.kn-bar.active.kn-animate {
+    background-color: lightgray;
+    -webkit-transition: all 0.2s 0 ease-out;
+    transition: all 0.2s 0 ease-out; }
+  ul.knowledge-bar li.kn-bar {
+    background-color: lightgray;
+    margin: 2px;
+    width: 10%; }
+  ul.knowledge-bar li.kn-bar.active {
+    background-color: blueviolet; }
+
+/*# sourceMappingURL=knowledge-bar0.1.css.map */

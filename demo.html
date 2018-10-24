@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+ *      
+ *      Knowledge Bar, developed by Rasmus Nilsson
+ *      info@rasmusnilsson.se
+ *      https://rasmusnilsson.se/
+ * 
+ -->
+<html>
+    <head>
+        <title>knowledge-bar demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="knowledge-bar0.1.css" type="text/css">
+        <link rel="stylesheet" href="knowledge-bar0.1-shiny.css" type="text/css">
+        <link rel="stylesheet" href="knowledge-bar0.1-info.css" type="text/css">
+        <link rel="stylesheet" href="demo.css" type="text/css">
+    </head>
+    <body>
+        <main>
+            <h1>knowledge-bar<br />
+            <sub>This demo uses both optional themes.</sub></h1>
+            <section>
+                <div class="bar">
+                    <label>c: </label>
+                    <ul class="knowledge-bar" 
+                        data-percent="40"
+                        data-kn-animate="true"
+                        data-kn-animate-on-load="true"
+                        data-kn-active-color="darkslateblue"
+                        data-kn-unactive-color="lightsteelblue"
+                    ></ul>
+                </div>
+                <div class="bar">
+                    <label>javascript:</label>
+                    <ul class="knowledge-bar" 
+                        data-percent="50"
+                        data-kn-animate="true"
+                        data-kn-animate-on-load="true"
+                        data-kn-active-color="black"
+                    ></ul>
+                </div>
+                <div class="bar">
+                    <label>java:</label>
+                    <ul class="knowledge-bar" 
+                        data-percent="50"
+                        data-kn-animate="true"
+                        data-kn-animate-on-load="true"
+                        data-kn-active-color="indianred"
+                        data-kn-unactive-color="lightpink"
+                    ></ul>
+                </div>
+                <div class="bar">
+                    <label>personal skills:</label>
+                    <ul class="knowledge-bar" 
+                        data-percent="60"
+                        data-kn-animate="true"
+                        data-kn-animate-on-load="true"
+                        data-kn-active-color="gold"
+                        data-kn-unactive-color="beige"
+                    ></ul>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Knowledge-bar demo, created by Rasmus Nilsson.</p>
+            <p>Available at <a href="#">GitHub</a>.</p>
+        </footer>
+        <!-- The brains -->
+        <script src="knowledge-bar0.1.js"></script>
+        <script>
+            knowledgeBar();
+        </script>
+    </body>
+</html>
